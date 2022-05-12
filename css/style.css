@@ -85,17 +85,24 @@ select{
 
 .card {
   text-align:center;
-  width:85%;
   height:300px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 10px;
 }
-.container {
+.clearfix {
+border-radius:5px;
+color:white;
+text-align:center;
+background-color:#FFB72B;
 }
-
-.inv {
-  display:none;
+.clearfix h3 {
+font-size:20px;
+font-weight:bold;
+padding:0;
+padding-bottom:0;
+height:15px;
+width:100%;
 }
 
 /*------FINAL-----*/
