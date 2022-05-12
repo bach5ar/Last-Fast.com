@@ -60,7 +60,9 @@ button:hover {
    }
 /*-----FINAL------*/
 /*start css order.html*/   
-
+table {
+width:50%;
+}
 .custom-select {
    position:fixed;}
 select{
