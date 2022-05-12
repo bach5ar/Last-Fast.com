@@ -22,23 +22,19 @@
 </header>
 
 <section>
-	<div class="select" style="width:100%;">
+	<div class="select">
 		<h1>Creat Your Order</h1>
 		<p>You can now creat your order from our menu and contact us for delivri serice and get your home location so Ready to order? Get the LasFast's App to place an order for Drive Thru and Curbside pickup, for your favorite food. </p>
-		 
-	 <select id="target">
-		 <option value="">Menu</option>
-		 <option value="content_1">Burgers</option>
-		 <option value="content_2"> Chicken & Sandwiches </option>
-		 <option value="content_3"> Desserts , Shakes & Drinks</option>
-	 </select>
 	</div>
 </section>
 
-<section>
+<section class="section2" >
 
 <div id="content_1" class="inv">
 <table>
+<div class="clearfix" >
+<h2>Burgers</h2>
+</div>
 <tr>
 <td>
 <div class="card">
@@ -95,7 +91,9 @@
 </tr>
 </table>
 </div>
-
+<div class="clearfix" >
+<h2>Sandwitchs</h2>
+</div>
 <div id="content_2" class="inv">
 <table>
 <tr>
@@ -122,7 +120,7 @@
 </tr>
 <tr>
 <td colspan="" ><div class="card">
-  <img src="images/sandwich3.png" alt="Avatar" style="width:100%">
+  <img src="images/sandwich2.png" alt="Avatar" style="width:100%">
   <div class="container">
     <h4><b>Deluxe Crispy Chicken Sandwich</b></h4>
     
@@ -164,7 +162,9 @@
 </tr>
 </table>
 </div>
-
+<div class="clearfix" >
+<h2>Drinks and icecreams</h2>
+</div>
 <div id="content_3" class="inv">
 <table>
 <tr>
@@ -248,7 +248,7 @@
 <div class="card">
   <img src="images/drink.png" alt="Avatar" style="width:100%">
   <div class="container">
-    <h4><b>McFlurry® with OREO® cookies</b></h4>
+    <h4><b>McFlurry® with OREO® </b></h4>
     <p>8.59$</p>
     <button>Add +</button> <button>-</button>
   </div>
@@ -284,20 +284,5 @@
 </div>
 </footer>
 
-<script>
-            document
-                .getElementById('target')
-                .addEventListener('change', function () {
-                    'use strict';
-                    var vis = document.querySelector('.vis'),   
-                        target = document.getElementById(this.value);
-                    if (vis !== null) {
-                        vis.className = 'inv';
-                    }
-                    if (target !== null ) {
-                        target.className = 'vis';
-                    }
-});
-</script>
 </body>
 </html>
